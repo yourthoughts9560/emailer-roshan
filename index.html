@@ -105,10 +105,7 @@
         }
         .bottom-footer {
             text-align: center;
-            display: grid;
-            justify-content: space-between;
-            grid-template-columns: 1fr 1fr;
-            gap: 10%;
+             
         }
         .bottom-footer p {
             color: #162B6F;
@@ -315,25 +312,31 @@
             </div>
 
             <div class="divider"></div>
-            <div class="bottom-footer">
-                <div class="bottom-footer-right">
-                    <p>
-                        Curriculum Leadership Institute
-                        <br />cliweb.org
-                    </p>
-                </div>
-                <div class="bottom-footer-left">
-                    <p>
-                        Visit our social accounts
-                    </p>
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/cliweb"><img src="./facebook.png" alt="Facebook"></a>
-                        <a href="https://www.instagram.com/curriculumninjas/"><img src="./instagram.png" alt="Instagram"></a>
-                        <a href="https://www.linkedin.com/company/curriculum-leadership-institute"><img src="./linkedin.png" alt="LinkedIn"></a>
-                        <a href="https://x.com/CLI_Leaders"><img src="./twitter.png" alt="Twitter"></a>
-                    </div>
-                </div>
-            </div>
+            <table class="bottom-footer" width="100%" cellspacing="0" cellpadding="0" style="border-collapse: collapse; text-align: center;">
+                <tr>
+                    <td width="50%" class="bottom-footer-right" style="vertical-align: top;">
+                        <p style="color: #162B6F; font-family: georgia, serif; line-height: 1.875; font-size: 15px;">
+                            Curriculum Leadership Institute
+                            <br />cliweb.org
+                        </p>
+                    </td>
+                    <td width="50%" class="bottom-footer-left" style="vertical-align: top;">
+                        <p style="color: #162B6F; font-family: georgia, sans-serif; line-height: 1.875; font-size: 15px;">
+                            Visit our social accounts
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/cliweb" style="text-decoration: none; display: inline-block; margin: 0 5px;">
+                                <img src="./facebook.png" alt="Facebook" style="width: 22px;"></a>
+                            <a href="https://www.instagram.com/curriculumninjas/" style="text-decoration: none; display: inline-block; margin: 0 5px;">
+                                <img src="./instagram.png" alt="Instagram" style="width: 22px;"></a>
+                            <a href="https://www.linkedin.com/company/curriculum-leadership-institute" style="text-decoration: none; display: inline-block; margin: 0 5px;">
+                                <img src="./linkedin.png" alt="LinkedIn" style="width: 22px;"></a>
+                            <a href="https://x.com/CLI_Leaders" style="text-decoration: none; display: inline-block; margin: 0 5px;">
+                                <img src="./twitter.png" alt="Twitter" style="width: 22px;"></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
         </div>
     </div>
 </body>
